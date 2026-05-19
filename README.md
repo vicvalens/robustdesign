@@ -24,14 +24,14 @@ The course helps students transform an existing industrial design project into t
 
 - [Example 1 PDF](Example%201.pdf)
 - [Example 2 PDF](Example%202.pdf)
-- [Robust Design and Product Specification Course Structure](Robust%20Design%20and%20Product%20Specification%20Co...)
+- [Robust Design and Product Specification Course Structure](Robust%Design%and%Product%Specification%Course%Plan.pdf)
   
 ---
 
 ### Session 1 — Robust Design and Product Specification
 
-- [Session 1 PDF](Session%201.%20Robust%20Design%20Product%20Specificati...)
-- [Session 1 Presentation](Session%201.%20Robust%20Design%20Product%20Specificati...)
+- [Session 1 PDF](Session%201.%20Robust%20Design%20Product%20Specification.pdf)
+- [Session 1 Presentation](Session%201.%20Robust%20Design%20Product%20Specification.pdf)
 
 ---
 
