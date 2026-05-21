@@ -27,10 +27,9 @@ The course helps students transform an existing industrial design project into t
 
 ---
 
-## Assignment Links
+## Assignment Link
 
-- [Session 2 Deliverable — Concept and Requirements](https://classroom.github.com/a/vDkP61ND)
-- [Session 3 Deliverable — Materials, CMF and Productive Direction](https://classroom.github.com/a/ekrpn90D)
+- [Report Submissions](https://classroom.github.com/a/vDkP61ND)
 
 ---
 
