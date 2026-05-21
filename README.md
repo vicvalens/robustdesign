@@ -27,6 +27,13 @@ The course helps students transform an existing industrial design project into t
 
 ---
 
+## Assignment Links
+
+- [Session 2 Deliverable — Concept and Requirements](https://classroom.github.com/a/vDkP61ND)
+- [Session 3 Deliverable — Materials, CMF and Productive Direction](https://classroom.github.com/a/ekrpn90D)
+
+---
+
 ### Session 1 — Robust Design and Product Specification
 
 - [Session 1 Presentation / PDF](Session%201.%20Robust%20Design%20Product%20Specificati...)
