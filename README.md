@@ -1,6 +1,6 @@
 # Robust Design and Product Specification
 
-Course materials for **Specification of Products and Services** focused on robust design, technical product documentation, and visual/commercial communication.
+Course materials for **Specification of Products and Services**, focused on robust design, technical product documentation, and visual/commercial communication.
 
 This repository contains class presentations, example reports, and reference materials for students.
 
@@ -24,14 +24,12 @@ The course helps students transform an existing industrial design project into t
 
 - [Example 1 PDF](Example%201.pdf)
 - [Example 2 PDF](Example%202.pdf)
-- [Robust Design and Product Specification Course Structure](Robust%20Design%20and%20Product%20Specification%20Course%20Plan.pdf)
-  
+
 ---
 
 ### Session 1 — Robust Design and Product Specification
 
-- [Session 1 PDF](Session%201.%20Robust%20Design%20Product%20Specification.pdf)
-- [Session 1 Presentation](Session%201.%20Robust%20Design%20Product%20Specification.pdf)
+- [Session 1 Presentation / PDF](Session%201.%20Robust%20Design%20Product%20Specificati...)
 
 ---
 
@@ -40,113 +38,141 @@ The course helps students transform an existing industrial design project into t
 - [View Session 2 PDF](Session%202.%20Concept%20requirements.pdf)
 - [Download Session 2 PowerPoint](Session%202.%20Concept%20requirements.pptx)
 
----
+#### Session 2 Deliverable
 
-## Session 2 Deliverable: Concept and Requirements Report
-
-For Session 2, each team must create a report based on the index developed in Session 1.
-
-The report should define the direction of the project for both future deliverables:
-
-- the **technical report** for production
-- the **visual/commercial report** for the final user
-
----
-
-## Required Sections for Session 2
+Each team must create a **Concept and Requirements Report** based on the index developed in Session 1.
 
 The report must include:
 
-1. **Cover / Header**
-2. **Project Overview**
-3. **User and Context**
-4. **Problem Statement**
-5. **Value Proposition**
-6. **Concept Direction**
-7. **Technical Direction**
-8. **Visual / Commercial Direction**
-9. **Requirements Table**
-10. **Success Criteria**
-11. **Evidence Needed**
-12. **MVP Definition**
-13. **Missing Information**
-14. **Next Steps**
+1. Cover / Header  
+2. Project Overview  
+3. User and Context  
+4. Problem Statement  
+5. Value Proposition  
+6. Concept Direction  
+7. Technical Direction  
+8. Visual / Commercial Direction  
+9. Requirements Table  
+10. Success Criteria  
+11. Evidence Needed  
+12. MVP Definition  
+13. Missing Information  
+14. Next Steps  
+
+Suggested length: **8 to 12 pages**.
 
 ---
 
-## Suggested Report Length
+### Session 3 — Materials, CMF and Productive Direction
 
-The Session 2 report should have:
+- [View Session 3 PDF](Session%203%20Materials.pdf)
+- [Download Session 3 PowerPoint](Session%203%20Materials.pptx)
 
-- **Minimum:** 6 pages
-- **Ideal:** 8–12 pages
-- **Maximum:** 15 pages
+#### Session 3 Deliverable
 
-The report should be visual and concise. Use short paragraphs, tables, sketches, renders, diagrams, moodboards, and clear captions.
+Each team must create a **Materials, CMF and Productive Direction Report**.
+
+The purpose of this report is to define the first material, color, finish and production strategy for the product. This section must connect the requirements from Session 2 with the future technical report and the visual/commercial report.
+
+The report must include:
+
+1. Cover / Header  
+2. Material Strategy  
+3. Main Parts and Possible Materials  
+4. Materials Table  
+5. CMF Palette  
+6. Material References  
+7. Production Process Direction  
+8. Material Risks and Alternatives  
+9. Technical Explanation for the Manufacturer Report  
+10. Visual / Commercial Explanation for the User-Facing Report  
+11. Missing Information  
+12. Next Steps  
+
+Suggested length: **8 to 12 pages**.
 
 ---
 
-## Requirements Table
+## Session 3 Main Table
 
-Each team must include a requirements table with the following columns:
+Each team must include a table like this:
 
-| Requirement | Category | Why is it important? | Technical success criteria | Visual / commercial translation | Evidence needed |
-|---|---|---|---|---|---|
-
-The table should include:
-
-- User requirements
-- Functional requirements
-- Technical requirements
-- Ergonomic requirements
-- Production requirements
-- Safety requirements
-- Sustainability requirements
-- Market / communication requirements
+| Part / Component | Proposed Material | Key Properties | Production Process | Finish / Color | Why this material? | Risk or Alternative |
+|---|---|---|---|---|---|---|
+| Main body | To be defined | Durable, lightweight, resistant to use | Injection molding / textile sewing / 3D printing / CNC | Matte / glossy / textured | Supports the main function and user context | Needs testing / alternative material |
+| Strap / support | To be defined | Flexible, strong, comfortable | Sewing / cutting / assembly | Textile finish | Supports comfort and adjustment | Check resistance |
+| Connector / joint | To be defined | Strong, precise, repeatable | Injection molding / CNC / commercial component | Neutral / technical finish | Allows assembly and modularity | Check tolerance and wear |
 
 ---
 
 ## NotebookLM Workflow
 
-Students may use NotebookLM to generate a first draft of the Session 2 report.
+Students may use NotebookLM to generate a first draft of each session report.
 
 Before using NotebookLM, upload:
 
 - Session 1 index
-- project brief
-- sketches
-- renders
-- moodboard
-- previous feedback
-- benchmarks
-- prototype photos
-- visual references
+- Session 2 Concept and Requirements report
+- Project brief
+- Sketches
+- Renders
+- Moodboard
+- Previous feedback
+- Benchmarks
+- Prototype photos
+- Visual references
 
 NotebookLM can help organize the text, but the final report must be edited, reviewed, and completed by each team.
 
 ---
 
-## NotebookLM Prompt for Session 2
+## NotebookLM Prompt for Session 3
 
 ```text
-Using only the sources uploaded to this notebook, create a Session 2 report titled “Concept and Requirements”.
+Using only the sources uploaded to this notebook, create a Session 3 report titled “Materials, CMF and Productive Direction”.
 
-Base the report on the index we created in Session 1.
+Base the report on our Session 1 index and Session 2 Concept and Requirements report.
 
 The report must include:
-1. Project Overview
-2. User and Context
-3. Problem Statement
-4. Value Proposition
-5. Concept Direction
-6. Technical Direction for the manufacturer report
-7. Visual / Commercial Direction for the user-facing report
-8. Requirements Table
-9. MVP Definition
+
+1. Material Strategy
+Explain what types of materials the product needs and why.
+
+2. Main Parts and Possible Materials
+Identify the main parts or components of the product and suggest possible materials for each one.
+
+3. Materials Table
+Create a table with:
+- Part / Component
+- Proposed Material
+- Key Properties
+- Production Process
+- Finish / Color
+- Why this material?
+- Risk or Alternative
+
+4. CMF Palette
+Describe the color, material and finish direction of the product.
+
+5. Material References
+Suggest what images, samples or references should be included.
+
+6. Production Process Direction
+Explain possible production processes for the product.
+
+7. Material Risks and Alternatives
+List possible problems with the selected materials and possible alternatives.
+
+8. Technical Explanation
+Explain how these materials should be described in the technical report for a manufacturer.
+
+9. Visual / Commercial Explanation
+Explain how these materials should be communicated to the final user in the website, landing page, shopping page, app or configurator.
+
 10. Missing Information
+List what still needs to be researched, measured, tested or confirmed.
+
 11. Next Steps
+List 5 to 7 specific actions before the next session.
 
-The requirements table must include:
-Requirement, Category, Why is it important?, Technical success criteria, Visual / commercial translation, and Evidence needed.
-
-Do not invent information. If something is missing, write “to be defined” or “needs evidence”.
+Do not invent final specifications. If information is missing, write “to be defined” or “needs testing”.
