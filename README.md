@@ -109,6 +109,106 @@ Each team must include a table like this:
 | Strap / support | To be defined | Flexible, strong, comfortable | Sewing / cutting / assembly | Textile finish | Supports comfort and adjustment | Check resistance |
 | Connector / joint | To be defined | Strong, precise, repeatable | Injection molding / CNC / commercial component | Neutral / technical finish | Allows assembly and modularity | Check tolerance and wear |
 
+
+---
+
+### Session 4 — Technical Drawings and BOM
+
+- [View Session 4 PDF](Session%204.%20Technical%20Drawings%20and%20BOM.pdf)
+- [Download Session 4 PowerPoint](Session%204.%20Technical%20Drawings%20and%20BOM.pptx)
+
+#### Session 4 Deliverable
+
+Each team must create a **Technical Drawings and Preliminary BOM Report**.
+
+The purpose of this report is to organize the product as a system of parts, components, assemblies, materials and costs. This section must be advanced enough to become part of the final technical report.
+
+The report must include:
+
+1. Cover / Header  
+2. Product Architecture  
+3. Parts Breakdown  
+4. Manufactured Parts  
+5. Commercial Parts  
+6. Exploded View or Assembly Diagram  
+7. Technical Drawings Checklist  
+8. Preliminary BOM  
+9. Assembly Sequence  
+10. Technical Risks  
+11. Missing Information  
+12. Next Steps  
+
+Suggested length: **8 to 12 pages**.
+
+---
+
+## Session 4 Main Table
+
+Each team must include a preliminary BOM table like this:
+
+| Part / Component | Qty. | Type | Material | Process / Supplier | Estimated Cost | Function | Notes |
+|---|---:|---|---|---|---:|---|---|
+| Main body | 1 | Manufactured | To be defined | 3D printing / injection molding / textile sewing / CNC | To be defined | Holds main structure | Needs final dimensions |
+| Strap / support | 2 | Manufactured / Commercial | Nylon / polyester | Sewing / commercial webbing | To be defined | Adjustment and support | Needs resistance test |
+| Buckle / connector | 1 | Commercial | Plastic / metal | Supplier | To be defined | Opening, closing or attachment | Define size and type |
+| Fasteners | Several | Commercial | Metal / plastic | Supplier | To be defined | Assembly | Define quantity |
+| Textile cover / shell | 1 | Manufactured | Fabric / technical textile | Cutting + sewing | To be defined | Protection / finish | Needs pattern |
+
+---
+
+## NotebookLM Prompt for Session 4
+
+```text
+Using only the sources uploaded to this notebook, create a Session 4 report titled “Technical Drawings and BOM”.
+
+Base the report on our Session 1 index, Session 2 Concept and Requirements report, and Session 3 Materials, CMF and Productive Direction report.
+
+The report must include:
+
+1. Product Architecture
+Explain the product as a system of parts, modules and components.
+
+2. Parts Breakdown
+List the main parts and classify them as manufactured parts, commercial parts, consumables or finishes.
+
+3. Manufactured Parts
+Identify which parts need to be manufactured and suggest possible production processes.
+
+4. Commercial Parts
+Identify which parts can be purchased from suppliers.
+
+5. Exploded View or Assembly Diagram
+Describe what the exploded view should show and what parts must be labeled.
+
+6. Technical Drawings Checklist
+List all drawings needed for the final technical report.
+
+7. Preliminary BOM
+Create a table with:
+- Part / Component
+- Quantity
+- Type: manufactured, commercial, consumable or finish
+- Material
+- Production process or supplier
+- Estimated cost
+- Function
+- Notes
+
+8. Assembly Sequence
+Describe the basic steps to assemble the product.
+
+9. Technical Risks
+List possible risks related to assembly, weak points, materials, tolerances, wear or production.
+
+10. Missing Information
+List what still needs to be measured, drawn, tested or confirmed.
+
+11. Next Steps
+List 5 to 7 specific actions before the next session.
+
+Do not invent final specifications. If information is missing, write “to be defined”, “needs measurement” or “needs evidence”.
+```
+
 ---
 
 ## NotebookLM Workflow
