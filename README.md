@@ -112,6 +112,60 @@ Each team must include a table like this:
 
 ---
 
+## NotebookLM Prompt for Session 3
+
+```text
+Using only the sources uploaded to this notebook, create a Session 3 report titled “Materials, CMF and Productive Direction”.
+
+Base the report on our Session 1 index and Session 2 Concept and Requirements report.
+
+The report must include:
+
+1. Material Strategy
+Explain what types of materials the product needs and why.
+
+2. Main Parts and Possible Materials
+Identify the main parts or components of the product and suggest possible materials for each one.
+
+3. Materials Table
+Create a table with:
+- Part / Component
+- Proposed Material
+- Key Properties
+- Production Process
+- Finish / Color
+- Why this material?
+- Risk or Alternative
+
+4. CMF Palette
+Describe the color, material and finish direction of the product.
+
+5. Material References
+Suggest what images, samples or references should be included.
+
+6. Production Process Direction
+Explain possible production processes for the product.
+
+7. Material Risks and Alternatives
+List possible problems with the selected materials and possible alternatives.
+
+8. Technical Explanation
+Explain how these materials should be described in the technical report for a manufacturer.
+
+9. Visual / Commercial Explanation
+Explain how these materials should be communicated to the final user in the website, landing page, shopping page, app or configurator.
+
+10. Missing Information
+List what still needs to be researched, measured, tested or confirmed.
+
+11. Next Steps
+List 5 to 7 specific actions before the next session.
+
+Do not invent final specifications. If information is missing, write “to be defined” or “needs testing”.
+```
+
+---
+
 ### Session 4 — Technical Drawings and BOM
 
 - [View Session 4 PDF](Session%204.%20Technical%20Drawings%20and%20BOM.pdf)
@@ -211,74 +265,102 @@ Do not invent final specifications. If information is missing, write “to be de
 
 ---
 
-## NotebookLM Workflow
+### Session 5 — Ergonomics, Use and Validation
 
-Students may use NotebookLM to generate a first draft of each session report.
+- [View Session 5 PDF](Session%205.%20Ergonomics.pdf)
+- [Download Session 5 PowerPoint](Session%205.%20Ergonomics.pptx)
 
-Before using NotebookLM, upload:
+#### Session 5 Deliverable
 
-- Session 1 index
-- Session 2 Concept and Requirements report
-- Project brief
-- Sketches
-- Renders
-- Moodboard
-- Previous feedback
-- Benchmarks
-- Prototype photos
-- Visual references
+Each team must create an **Ergonomics, Use Diagrams and Validation Plan Report**.
 
-NotebookLM can help organize the text, but the final report must be edited, reviewed, and completed by each team.
-
----
-
-## NotebookLM Prompt for Session 3
-
-```text
-Using only the sources uploaded to this notebook, create a Session 3 report titled “Materials, CMF and Productive Direction”.
-
-Base the report on our Session 1 index and Session 2 Concept and Requirements report.
+The purpose of this report is to explain how the product is used, where it interacts with the body or context, what risks may appear during use, and how the team will prove that the product is comfortable, safe and functional.
 
 The report must include:
 
-1. Material Strategy
-Explain what types of materials the product needs and why.
+1. Cover / Header  
+2. User Interaction  
+3. Use Sequence  
+4. Ergonomic Points  
+5. Critical Contact Points  
+6. Safety Risks  
+7. Validation Plan  
+8. Test Criteria  
+9. Evidence Needed  
+10. Technical Explanation for the Manufacturer Report  
+11. Visual / Commercial Explanation for the User-Facing Report  
+12. Missing Information  
+13. Next Steps  
 
-2. Main Parts and Possible Materials
-Identify the main parts or components of the product and suggest possible materials for each one.
+Suggested length: **6 to 10 pages**.
 
-3. Materials Table
-Create a table with:
-- Part / Component
-- Proposed Material
-- Key Properties
-- Production Process
-- Finish / Color
-- Why this material?
-- Risk or Alternative
+---
 
-4. CMF Palette
-Describe the color, material and finish direction of the product.
+## Session 5 Main Table
 
-5. Material References
-Suggest what images, samples or references should be included.
+Each team must include a validation table like this:
 
-6. Production Process Direction
-Explain possible production processes for the product.
+| Test | What it checks | How to test it | Success Criteria | Evidence Needed |
+|---|---|---|---|---|
+| Comfort test | Comfort during use | User uses the product for a set time | Comfort score 8/10 or higher | Photos + survey |
+| Stability test | Product stays in place | Walk, skate, bike or move with it | It does not move, fall or detach | Video |
+| Access test | Ease of use | Open, grab, adjust or activate the product | Task completed in X seconds | Timed video |
+| Load test | Resistance | Carry or support weight | No rupture or deformation | Photos + notes |
+| Safety check | Risk points | Observe use | No sharp, loose or risky areas | Checklist |
 
-7. Material Risks and Alternatives
-List possible problems with the selected materials and possible alternatives.
+---
 
-8. Technical Explanation
-Explain how these materials should be described in the technical report for a manufacturer.
+## NotebookLM Prompt for Session 5
 
-9. Visual / Commercial Explanation
-Explain how these materials should be communicated to the final user in the website, landing page, shopping page, app or configurator.
+```text
+Using only the sources uploaded to this notebook, create a Session 5 report titled “Ergonomics, Use Diagrams and Validation Plan”.
 
-10. Missing Information
-List what still needs to be researched, measured, tested or confirmed.
+Base the report on the Session 1 index, Session 2 Concept and Requirements report, Session 3 Materials and CMF report, and Session 4 Technical Drawings and BOM report.
 
-11. Next Steps
+The report must include:
+
+1. User Interaction
+Explain how the user holds, wears, carries, opens, closes, adjusts or activates the product.
+
+2. Use Sequence
+Describe the step-by-step use sequence of the product.
+
+3. Ergonomic Points
+Explain body contact, posture, grip, pressure, weight, comfort and movement.
+
+4. Critical Contact Points
+Identify where the product touches the body, object, vehicle, bag, board or environment.
+
+5. Safety Risks
+List possible risks such as slipping, falling, pinching, leaking, breaking, discomfort or blocking movement.
+
+6. Validation Plan
+Create a plan to test whether the product works as expected.
+
+7. Test Criteria
+For each test, define what will be measured or observed.
+
+8. Evidence Needed
+List the photos, videos, measurements, surveys, tables or diagrams needed.
+
+9. Technical Explanation
+Explain how this information should be included in the technical report for a manufacturer.
+
+10. Visual / Commercial Explanation
+Explain how the ergonomic and validation benefits should be communicated to the final user.
+
+11. Missing Information
+List what still needs to be measured, tested, drawn or confirmed.
+
+12. Next Steps
 List 5 to 7 specific actions before the next session.
 
-Do not invent final specifications. If information is missing, write “to be defined” or “needs testing”.
+Do not invent final results. If information is missing, write “to be defined”, “needs measurement” or “needs testing”.
+```
+
+---
+
+## Final Note
+
+This course does not ask students to redesign the project from zero.  
+The goal is to organize and transform previous work into a professional product specification package.
