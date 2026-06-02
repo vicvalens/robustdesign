@@ -360,6 +360,133 @@ Do not invent final results. If information is missing, write “to be defined�
 
 ---
 
+
+### Session 6 — Production, Digital Output and Life Cycle
+
+- [View Session 6 PDF](Session%206%3A%20Production.pdf)
+- [Download Session 6 PowerPoint](Session%206%3A%20Production.pptx)
+
+#### Session 6 Deliverable
+
+Each team must create a **Production Manual, Digital Output and Life Cycle Report**.
+
+The purpose of this report is to explain how the product could be produced, assembled, checked, maintained and responsibly handled during its life cycle. This session also introduces how the visual/commercial report can become a simple webpage, landing page, app mockup or digital product experience.
+
+The report must include:
+
+1. Cover / Header  
+2. Production Overview  
+3. Production Flow  
+4. Assembly Sequence  
+5. Tools and Processes  
+6. Quality Control Checklist  
+7. Maintenance Instructions  
+8. Repair / Replacement Strategy  
+9. Sustainability Strategy  
+10. Product Life Cycle  
+11. Digital Output Direction: webpage, app, landing page, shopping page or digital dossier  
+12. Publishing Option: GitHub Pages, Google Sites, Notion, Canva, Expo Go or similar  
+13. Missing Information  
+14. Next Steps  
+
+Suggested length: **6 to 10 pages**.
+
+---
+
+## Session 6 Main Table
+
+Each team must include a production and life cycle table like this:
+
+| Production Stage | What happens? | Tools / Process | Quality Check | Evidence Needed |
+|---|---|---|---|---|
+| Material sourcing | Materials and components are selected or purchased | Supplier research, material sheets, samples | Correct material, thickness, resistance and finish | Supplier links, material references, photos |
+| Part manufacturing | Custom parts are made | Sewing, 3D printing, CNC, injection molding, cutting, RF welding, etc. | Dimensions, finish, resistance and defects | Photos, process references, drawings |
+| Assembly | Parts are joined into the product | Stitching, screws, adhesives, welding, clips, rivets, straps | Secure connections, correct alignment, no loose parts | Assembly photos, sequence diagram |
+| Functional test | Product is tested in basic use | Load test, movement test, leak test, fit test, attachment test | Product performs without failure | Video, checklist, measurements |
+| Final inspection | Product is reviewed before delivery | Visual inspection and checklist | No defects, safe edges, complete parts | Quality control checklist |
+| Maintenance | User cleans, repairs or replaces parts | Cleaning, replacement parts, basic tools | Product remains usable after maintenance | Maintenance guide, photos |
+| End of life | Product is repaired, reused, recycled or disposed | Take-back, recycling, replacement modules, material separation | Parts can be separated or reused | Life cycle diagram |
+
+---
+
+## Digital Output Options for Session 6
+
+Teams may choose one visual/commercial format:
+
+| Option | Best for |
+|---|---|
+| **GitHub Pages** | Publishing a simple webpage with project sections, images and links |
+| **Google Sites / Notion** | Creating a fast visual dossier without coding |
+| **Canva Website** | Creating a visual landing page or product presentation |
+| **Expo Go** | Creating a mobile app prototype or product experience |
+| **Figma** | Creating an app mockup, configurator or interactive prototype |
+| **Framer / Wix / Gamma** | Creating a more polished landing page with AI assistance |
+
+The digital output does not need to be a fully functional commercial platform. It must clearly communicate the product, benefits, use, materials, trust elements and purchase or customization logic.
+
+---
+
+## NotebookLM Prompt for Session 6
+
+```text
+Using only the sources uploaded to this notebook, create a Session 6 report titled “Production Manual, Digital Output and Life Cycle”.
+
+Base the report on the previous session reports:
+Session 2 Concept and Requirements,
+Session 3 Materials and CMF,
+Session 4 Technical Drawings and BOM,
+and Session 5 Ergonomics and Validation.
+
+The report must include:
+
+1. Production Overview
+Explain how the product could be produced.
+
+2. Production Flow
+Describe the step-by-step process from materials to finished product.
+
+3. Assembly Sequence
+Explain how the parts are assembled.
+
+4. Tools and Processes
+List the tools, machines, processes or suppliers needed.
+
+5. Quality Control Checklist
+Define what must be checked before the product is approved.
+
+6. Maintenance Instructions
+Explain how the user should clean, store, repair or replace parts.
+
+7. Repair / Replacement Strategy
+Identify which parts can be replaced instead of discarding the whole product.
+
+8. Sustainability Strategy
+Explain how the product reduces waste, lasts longer, uses better materials or supports responsible production.
+
+9. Product Life Cycle
+Describe material sourcing, manufacturing, distribution, use, maintenance and end of life.
+
+10. Digital Output Direction
+Define how the visual/commercial report could become a webpage, landing page, shopping page, app mockup, configurator or digital dossier.
+
+11. Publishing Option
+Explain whether the team will use GitHub Pages, Google Sites, Notion, Canva, Expo Go, Figma or another tool.
+
+12. Basic Norms / References
+List possible safety, material, textile, food, mobility, outdoor or ergonomic references that may apply.
+
+13. Missing Information
+List what still needs to be tested, quoted, sourced, published or validated.
+
+14. Next Steps
+List 5 to 7 actions before the final integration.
+
+Do not invent final results. If information is missing, write “to be defined”, “needs supplier”, “needs testing” or “needs evidence”.
+```
+
+---
+
+
 ## Final Note
 
 This course does not ask students to redesign the project from zero.  
