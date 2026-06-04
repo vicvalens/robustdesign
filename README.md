@@ -487,6 +487,155 @@ Do not invent final results. If information is missing, write “to be defined�
 ---
 
 
+### Session 7 — Final Report and AI Review Agent
+
+- [View Session 7 PDF](Session%207.%20Final%20Report.pdf)
+- [Download Session 7 PowerPoint](Session%207.%20Final%20Report.pptx)
+
+#### Session 7 Deliverable
+
+Each team must create a **Final Technical Product Specification Report** and use NotebookLM as an **AI technical reviewer** to check the report before final submission.
+
+The purpose of this session is to compile all previous session reports into one complete technical report, identify missing information, correct inconsistencies and make the final document ready for evaluation.
+
+Each team must submit:
+
+1. **Final Technical Product Specification Report** as one complete PDF  
+2. **AI Review Output** from NotebookLM  
+3. **Correction Checklist** showing what was changed after the AI review  
+4. **Final Evidence Folder** with renders, drawings, diagrams, tables, tests, references or links  
+
+Suggested length for the final report: **25 to 40 pages**, depending on the project complexity and visual evidence.
+
+---
+
+## Final Technical Report Structure
+
+The final report must compile and refine the work from all previous sessions:
+
+| Final Report Section | Source Session |
+|---|---|
+| Cover / Header | Final report |
+| Project Overview | Session 2 |
+| User and Context | Session 2 |
+| Problem Statement | Session 2 |
+| Value Proposition | Session 2 |
+| Requirements Table | Session 2 |
+| Materials and CMF | Session 3 |
+| Production Process Direction | Session 3 |
+| Product Architecture | Session 4 |
+| Parts Breakdown | Session 4 |
+| Exploded View / Assembly Diagram | Session 4 |
+| Preliminary BOM | Session 4 |
+| Use Sequence | Session 5 |
+| Ergonomic Analysis | Session 5 |
+| Validation Plan | Session 5 |
+| Production Manual | Session 6 |
+| Quality Control Checklist | Session 6 |
+| Maintenance Instructions | Session 6 |
+| Sustainability and Life Cycle | Session 6 |
+| Digital Output Direction | Session 6 |
+| Basic Norms / References | Session 6 |
+| Final Missing Information | Session 7 |
+| References / Bibliography | Final report |
+
+---
+
+## Session 7 AI Review Table
+
+Each team must include or generate a review table like this using NotebookLM:
+
+| Section | Status | What is working well | What is missing or unclear | What needs to be corrected | Priority |
+|---|---|---|---|---|---|
+| Project Overview | Complete / Partial / Missing | To be defined | To be defined | To be defined | High / Medium / Low |
+| Materials and CMF | Complete / Partial / Missing | To be defined | To be defined | To be defined | High / Medium / Low |
+| BOM | Complete / Partial / Missing | To be defined | To be defined | To be defined | High / Medium / Low |
+| Validation Plan | Complete / Partial / Missing | To be defined | To be defined | To be defined | High / Medium / Low |
+
+---
+
+## Correction Checklist
+
+After the AI review, each team must document the changes they made:
+
+| Correction | Section | What NotebookLM detected | What we changed | Status |
+|---|---|---|---|---|
+| 1 | Materials | Material was not specific enough | Added exact material and alternative | Done |
+| 2 | BOM | Missing quantity and cost | Added quantity and estimated cost | Done |
+| 3 | Ergonomics | No evidence of comfort test | Added validation plan and photo evidence | In progress |
+| 4 | Production | Assembly sequence unclear | Added numbered assembly steps | Done |
+| 5 | References | Missing sources | Added bibliography and image credits | Done |
+
+---
+
+## NotebookLM Prompt for Session 7
+
+```text
+Act as an industrial design technical report reviewer.
+
+Using only the uploaded sources in this notebook, review our Final Technical Product Specification Report.
+
+Your task is to check if the report is complete, consistent, technically clear and ready for final submission.
+
+Review the report according to these sections:
+
+1. Project Overview
+2. User and Context
+3. Problem Statement
+4. Value Proposition
+5. Requirements Table
+6. Materials and CMF
+7. Production Process Direction
+8. Product Architecture
+9. Parts Breakdown
+10. Exploded View / Assembly Diagram
+11. Preliminary BOM
+12. Use Sequence
+13. Ergonomic Analysis
+14. Validation Plan
+15. Production Manual
+16. Quality Control Checklist
+17. Maintenance Instructions
+18. Sustainability and Life Cycle
+19. Digital Output Direction
+20. Basic Norms / References
+21. Final Missing Information
+22. References / Bibliography
+
+Create a review table with the following columns:
+
+- Section
+- Status: Complete / Partial / Missing
+- What is working well
+- What is missing or unclear
+- What needs to be corrected
+- Priority: High / Medium / Low
+
+Also check for consistency problems:
+- product name
+- dimensions
+- materials
+- components
+- production processes
+- BOM information
+- visual identity
+- user profile
+- technical claims
+- tests and evidence
+
+Do not invent information.
+If information is missing, mark it as “missing”, “needs evidence”, “needs measurement” or “needs testing”.
+
+At the end, give us:
+1. The 5 most urgent corrections.
+2. The sections that are ready for final submission.
+3. The sections that need more work.
+4. A final recommendation before submitting the report.
+```
+
+---
+
+
 ## Final Note
 
 This course does not ask students to redesign the project from zero.  
